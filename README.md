@@ -32,5 +32,5 @@ https://github.com/anilbhatt1/epai_3_p1_s13_generators/blob/master/Generators_As
 - All the above functions are tested using pytest.
 - Testcase file : **test_Generators_Assignment.py** (Please note that that 'test_' need to be prefixed for Pytest to automatically identify that it is a testcase file).
 - Github Location : https://github.com/anilbhatt1/epai_3_p1_s13_generators/blob/master/test_Generators_Assignment.py
-- Test snapshot results as below:
+- Test snapshot results while **testing from computer terminal** is as below:
 ![Test_Pass](https://github.com/anilbhatt1/epai_3_p1_s13_generators/blob/master/Test_Passed_Snapshot.png)
