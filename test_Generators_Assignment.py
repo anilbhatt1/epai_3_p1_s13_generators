@@ -6,7 +6,7 @@ data_head  = ['Summons_Number' , 'Plate_ID', 'Registration_State', 'Plate_Type',
 
 Tickets = namedtuple('Tickets', data_head)
 
-ticket_path = r'C:\Users\anila\Desktop\AI\EPAI-Phase1\S15_Generators\nyc_parking_tickets_extract-1.csv'
+ticket_path = r'https://github.com/anilbhatt1/epai_3_p1_s13_generators/blob/master/nyc_parking_tickets_extract-1.csv'
 ticket_gen = GA.car_tickets(ticket_path)
 
 tickets_lst = [Tickets(*item) for item in ticket_gen]
